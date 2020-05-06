@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav {
+    position: absolute;
+    top:50%;
+    left: 50%;
+}
+.dropbuton {
+    position: relative;
+    display: inline-block;   
+}
+
+.contenido {
+    position: absolute;
+    display: none;    
+}
+
+
+.dropbuton:hover .contenido {
+    display: block;
+}
+
+
